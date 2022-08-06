@@ -2,18 +2,23 @@
 
 
 
-## My Project 1 (work name)
+## Travel To Slovakia
 
-Something to say about the project and it's purpose.
+This website Travel To Slovakia is about my home country Slovakia. Main purpose is saying and showing something about this country and 
+making potential users to contact the owner of the website for trip bookings.
+Travel To Slovakia will be useful for people who loves travelling and exploring not so popular countries such as this one. 
+
+
+
 
 
 ## Features
 ------
-**Navigation**
+**Navigation bar**
 
 **The header**
 
-**The abous us section**
+**The about us section**
 
 **Sign up form**
 
