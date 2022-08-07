@@ -27,12 +27,21 @@ a {
 #banner {
 
     max-width: 100%;
+ 
+
     
     
 }
 .image-banner {
     max-width: 100%;
+    animation: fadeIn 5s;
+    
+    border-radius: 0.5%;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 #menu {
     font-size: 120%;
     list-style-type: none;
