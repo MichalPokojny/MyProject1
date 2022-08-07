@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    color:darkslategrey;
+    color:black;
     
 }
 a {
@@ -22,15 +22,11 @@ a {
     width: 350px;
     margin: 0 auto;
     
-
 }
 #banner {
 
     max-width: 100%;
- 
-
-    
-    
+  
 }
 .image-banner {
     max-width: 100%;
@@ -42,6 +38,7 @@ a {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
 #menu {
     font-size: 120%;
     list-style-type: none;
@@ -64,13 +61,34 @@ h1, h2 {
     color: black;
     text-align: center;
 }
+h2 {
+    color: darkred;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+}
 #text {
     float:left
+}
+.wrapper p {
+    margin: 0 10%;
+    max-width: 80%;
+    line-height: 25px;
+    
 }
 
 .social {
     clear: left;
-    float: left;
+    margin: 0 auto; 
+    width: 260px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+   
+    word-spacing: 10px;
+}
+.social li {
+    
+    display: inline;
 }
 #text p {
     text-align: center;
