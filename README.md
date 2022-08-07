@@ -2,10 +2,6 @@
 
 
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-
-
 ## Travel To Slovakia
 
 This website Travel To Slovakia is about my home country Slovakia. Main purpose is saying and showing something about this country and 
