@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Manrope', sans-serif;
+    color:darkslategrey;
     
 }
 a {
@@ -17,26 +18,31 @@ a {
 
 #logo {
     
-    float: left;
-    font-size: 250%;
-    margin: 10px 0 0 30px;
-
+    font-size: 200%;
+    width: 350px;
+    margin: 0 auto;
     
 
-       
 }
 #banner {
-    
 
+    max-width: 100%;
+    
+    
+}
+.image-banner {
+    max-width: 100%;
 }
 #menu {
+    font-size: 120%;
     list-style-type: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     clear: left;
-    float: left;
-    margin-left: 25%;
+    width: 240px;
+    margin: 0 auto 10px;
+    word-spacing: 2px;
+    text-align: center;
     
-   
 }
 #menu li {
     display: inline;
@@ -47,6 +53,7 @@ h1, h2 {
     font-family: 'Jost', sans-serif;
     letter-spacing: 1px;
     color: black;
+    text-align: center;
 }
 #text {
     float:left
@@ -55,4 +62,7 @@ h1, h2 {
 .social {
     clear: left;
     float: left;
+}
+#text p {
+    text-align: center;
 }
