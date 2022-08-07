@@ -16,8 +16,30 @@ a {
 }
 
 #logo {
+    
+    float: left;
     font-size: 250%;
+    margin: 10px 0 0 30px;
+
+    
+
        
+}
+#banner {
+    
+
+}
+#menu {
+    list-style-type: none;
+    letter-spacing: 2px;
+    clear: left;
+    float: left;
+    margin-left: 25%;
+    
+   
+}
+#menu li {
+    display: inline;
 }
 
 h1, h2 {
@@ -25,4 +47,12 @@ h1, h2 {
     font-family: 'Jost', sans-serif;
     letter-spacing: 1px;
     color: black;
+}
+#text {
+    float:left
+}
+
+.social {
+    clear: left;
+    float: left;
 }
