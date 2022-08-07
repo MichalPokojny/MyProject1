@@ -10,8 +10,9 @@ body {
     font-family: 'Manrope', sans-serif;
     
 }
-.logos {
+a {
     text-decoration-line: none;
+    color: inherit;
 }
 
 #logo {
@@ -19,7 +20,7 @@ body {
        
 }
 
-h1 {
+h1, h2 {
     text-transform: uppercase;
     font-family: 'Jost', sans-serif;
     letter-spacing: 1px;
