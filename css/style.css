@@ -111,8 +111,10 @@ footer {
 #gallery {
     text-align: center;
     margin: 40px auto;
-    
-    
+     line-height: 15px;
+}
+#gallery img {
+   
 }
 #gallery  h2 {
     font-size: 150%;    
@@ -121,6 +123,7 @@ footer {
     
 }
 .picture {
+    
     max-width: 100%;
     transition: transform 1s;
 }
