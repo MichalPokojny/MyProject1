@@ -111,9 +111,11 @@ footer {
     text-align: center;
     margin: 40px auto;
     
+    
 }
 #gallery  h2 {
     font-size: 150%;    
+    margin-bottom: 40px;
     
     
 }
@@ -122,5 +124,5 @@ footer {
     transition: transform 1s;
 }
 .picture:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
