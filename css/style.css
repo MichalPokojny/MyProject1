@@ -15,14 +15,8 @@ a {
     text-decoration-line: none;
     color: inherit;
 }
+/*Main image banner*/
 
-#logo {
-    
-    font-size: 200%;
-    width: 350px;
-    margin: 0 auto;
-    
-}
 #banner {
 
     max-width: 100%;
@@ -38,7 +32,7 @@ a {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-
+/*nav bar*/
 #menu {
     font-size: 120%;
     list-style-type: none;
@@ -53,20 +47,27 @@ a {
 #menu li {
     display: inline;
 }
-
+/*Logo + headings*/
 h1, h2 {
     text-transform: uppercase;
     font-family: 'Jost', sans-serif;
     letter-spacing: 1px;
-    color: black;
+    color: #000000;
     text-align: center;
 }
 h2 {
-    color: darkred;
+    color: rgb(139, 0, 0);
     margin-top: 25px;
     margin-bottom: 10px;
     
 }
+#logo {
+    
+    font-size: 200%;
+    width: 350px;
+    margin: 0 auto;
+}
+/*Text structure*/
 #text {
     float:left
 }
@@ -76,20 +77,32 @@ h2 {
     line-height: 25px;
     
 }
-
-.social {
-    clear: left;
-    margin: 0 auto; 
-    width: 260px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-   
-    word-spacing: 10px;
+#text p {
+    text-align: center;
 }
-.social li {
+/*Footer - Social links*/
+footer {
+    
+}
+.social {
+    
+    text-align: center;
+    
+ 
+}
+.social > li {
     
     display: inline;
 }
-#text p {
-    text-align: center;
+.social i {
+    
+    font-size: 180%;
+    margin: 1%;
+    padding: 5%;
+    
+}
+
+.non-active{
+   border-bottom: 2px ridge  rgba(139, 0, 0, 0.3);
+
 }
