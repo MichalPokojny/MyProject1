@@ -47,6 +47,10 @@ a {
 #menu li {
     display: inline;
 }
+.non-active {
+    border-bottom: 2px ridge  rgba(139, 0, 0, 0.3);
+ 
+ }
 /*Logo + headings*/
 h1, h2 {
     text-transform: uppercase;
@@ -102,7 +106,4 @@ footer {
     
 }
 
-.non-active{
-   border-bottom: 2px ridge  rgba(139, 0, 0, 0.3);
 
-}
