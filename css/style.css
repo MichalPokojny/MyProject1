@@ -87,7 +87,7 @@ h2 {
 }
 /*Footer - Social links*/
 footer {
-    
+    clear: both;
 }
 .social {
     
@@ -129,4 +129,22 @@ footer {
 }
 .picture:hover {
     transform: scale(1.05);
+}
+/*form*/
+
+.form-main {
+    margin: 25px auto;
+    background-color: lightgreen;
+    
+    width: 80%;
+    height: 500px;
+    
+}
+.contact-details {
+    margin: 0 auto;
+    background-color: lightcoral;
+    width: 80%;
+    height: 500px;
+    clear: left;
+    text-align: center;
 }
