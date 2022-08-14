@@ -73,9 +73,8 @@ h2 {
     margin: 0 auto;
 }
 /*Text structure*/
-#text {
-    float:left
-}
+
+
 .wrapper p {
     margin: 0 10%;
     max-width: 80%;
@@ -134,7 +133,7 @@ footer {
 
 .form-main {
     margin: 25px auto;
-    background-color: ;
+    
     
     width: 80%;
     
@@ -184,3 +183,67 @@ footer {
 .submit:hover{
     font-size: 120%;
 }
+
+/*media queries*/
+/*For large screen devices 1200px and above*/
+@media screen and (min-width : 1200px) { 
+    #logo {
+        margin-left: 20px;
+        display: inline;
+        font-size: 250%; 
+    }
+    #navbar {
+        margin:15px 10px 0 0;
+        float: right; 
+    }
+    
+    #text p {
+       text-align: left;
+       padding: 0 20px;
+    }
+    #left-about {
+        
+        width: 25%;
+        float: left;
+    
+        
+    }
+   
+    #center-about {
+        
+        width: 25%;
+        margin-left: 13%;
+       
+        display: inline-block;
+    
+    }
+    #center-about p {
+        text-align:center;
+    }
+    #center-about h2, #right-about h2  {
+        margin-top: 0px;
+        padding-top: 25px;
+        
+    }
+   
+    
+    #right-about {
+        
+        width: 25%;
+        
+        float: right;
+  
+    }
+    #right-about p {
+        text-align: right;
+        margin-right: 10%;
+        
+    }
+    #right-about h2 {
+        padding-left: 10%;
+        
+    }
+    
+   
+}
+
