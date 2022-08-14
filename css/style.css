@@ -180,6 +180,31 @@ footer {
 }
 
 /*media queries*/
+/*For mediun screen devices */
+@media screen and (min-width : 820px) {
+    /*contact*/
+  
+  .form-main {
+    margin: 5% auto 15%;
+    width: 50%;
+  }
+  #logo {
+    margin-left: 20px;
+    display: inline;
+    font-size: 250%; 
+}
+#navbar {
+    margin:15px 10px 0 0;
+    float: right; 
+}
+    .wrapper {
+       margin: 0 auto; 
+       width: 70%;
+       text-align: justify;
+    }
+  
+ }
+
 /*For large screen devices 1200px and above*/
 @media screen and (min-width : 1200px) { 
     #logo {
