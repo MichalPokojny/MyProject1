@@ -134,17 +134,53 @@ footer {
 
 .form-main {
     margin: 25px auto;
-    background-color: lightgreen;
+    background-color: ;
     
     width: 80%;
-    height: 500px;
+    
     
 }
+.signup-form {
+    
+   
+}
 .contact-details {
-    margin: 0 auto;
-    background-color: lightcoral;
+    margin: 50px auto;
+    
     width: 80%;
-    height: 500px;
+    height: fit-content;
     clear: left;
     text-align: center;
+}
+.form-main {
+    
+}
+.contact-details p {
+    margin-top: 30px;
+}
+
+.text-input {
+    width:100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#comment {
+    border: 1px solid black;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    
+}
+.submit {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 110%;
+    display: block;
+    padding:10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+}
+.submit:hover{
+    font-size: 120%;
 }
