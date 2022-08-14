@@ -139,10 +139,7 @@ footer {
     
     
 }
-.signup-form {
-    
-   
-}
+
 .contact-details {
     margin: 50px auto;
     
@@ -151,9 +148,7 @@ footer {
     clear: left;
     text-align: center;
 }
-.form-main {
-    
-}
+
 .contact-details p {
     margin-top: 30px;
 }
@@ -196,7 +191,7 @@ footer {
         margin:15px 10px 0 0;
         float: right; 
     }
-    
+    /*mainpage*/
     #text p {
        text-align: left;
        padding: 0 20px;
@@ -205,8 +200,7 @@ footer {
         
         width: 25%;
         float: left;
-    
-        
+   
     }
    
     #center-about {
@@ -226,7 +220,6 @@ footer {
         
     }
    
-    
     #right-about {
         
         width: 25%;
@@ -243,7 +236,28 @@ footer {
         padding-left: 10%;
         
     }
+    /*gallery*/
+   #city {
+    float: left;
+    width: 33.33%;
+   }
+   #nature {
+    width: 33.33%;
+    display: inline-block;
+   }
+   #history {
+    width: 33.33%;
+    float: right;
+   }
+
+  /*contact*/
+  
+  .form-main {
+    margin: 5% auto 5%;
+    width: 25%;
     
-   
+    
+  }
+  
 }
 
