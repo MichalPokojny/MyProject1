@@ -8,7 +8,11 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 ## Features
 ------
+
 **Navigation bar**
+=======
+**Navigation**
+
 - On the top of the every page, there is a logo on the left side that can navigate to the main page and 
   on the right side there are 3 links which can navigate to different pages such as Home - main page, Gallery - where use can find photos about Slovakia     and Contact link where user can find contact and register for a trip to Slovakia.
 
