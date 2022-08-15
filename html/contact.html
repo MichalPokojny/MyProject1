@@ -22,42 +22,38 @@
         </a>
         <nav id="navbar">
             <ul id="menu">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="mainpage.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="#">Contact</a></li>
 
             </ul>
         </nav>
     </header>
+    <!--form-->
     <main>
-        <!--main photo banner-->
-        <section >
-              <img src="../Images/landscape.jpg" alt="High Tatras landscape" class="image-banner">
+    <section>
+    <div class="form-main">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form" id="contact-form">
+            <h2>Sign in for upcoming trips to Slovakia!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
 
-        </section>
-        <!--main text-->
-        <section id="text">
-            <div class="wrapper" id="left-about">
-                <h2>Why visit slovakia ?</h2>
-                <p>Slovakia is a special country.<br>
-                    Even in such a small area, you'll find everything from natural treasures and historical monuments
-                    to<br>
-                    rich folk culture and modern entertainment in the busy city streets.
-                    Enjoy the beauty and unique atmosphere that Slovakia has to offer.
-                </p>
-            </div> 
-            <div class="wrapper" id="center-about">
-                <h2>See & do</h2>
-                <p>From natural landscapes, mountains and caves to medieval castles,historical towns and spas and ski
-                    resorts.</p>
-            </div> 
-            <div class="wrapper" id="right-about">
-                <h2>History</h2>
-                <p>Slovak territory was inhabited in prehistoric times. From this period several archaeological
-                    artifacts are preserved and placed in the national history museums in many cities of Slovakia.
-                </p>
-            </div>
-        </section>
+            <label for="comment">Requests </label><br>
+            <textarea id="comment" rows="4" cols="50" name="comment" form="contact-form" maxlength="250"  placeholder="Add preffered date of travel and other requests" required></textarea>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+    <div class="contact-details">
+        <h2>Contact Details</h2>
+        <p>SLOVAKIA TRAVEL<br>Swords, Dublin<br>Phone: +353 89 000 0000<br>Email: traveltoslovakia@travel.ie</p>
+    </div>
+    </section>
     </main>
     <!--social links-->
     <footer>
