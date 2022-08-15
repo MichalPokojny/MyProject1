@@ -18,8 +18,9 @@ a {
 /*Main image banner*/
 
 .image-banner {
-    max-width: 100%;
     
+    width: 100%;
+ 
     animation: fadeIn 5s;
     
     border-radius: 0.5%;
@@ -215,16 +216,25 @@ footer {
         margin:15px 10px 0 0;
         float: right; 
     }
+   
+    .image-banner {
+        height: 700px;
+        object-fit: cover;
+        
+        
+    }
     /*mainpage*/
     #text p {
        text-align: left;
        padding: 0 20px;
+       
     }
     #left-about {
         
         width: 25%;
         float: left;
-   
+        
+        
     }
    
     #center-about {
@@ -253,11 +263,12 @@ footer {
     }
     #right-about p {
         text-align: right;
-        margin-right: 10%;
+        margin-right: 0;
+        padding-right: 0;
         
     }
     #right-about h2 {
-        padding-left: 10%;
+        padding-left: 30%;
         
     }
     /*gallery*/
