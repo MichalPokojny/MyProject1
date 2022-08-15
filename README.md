@@ -3,8 +3,8 @@
 This website Travel To Slovakia is about my home country Slovakia. Main purpose is saying and showing something about this country and 
 making potential users to contact the owner of the website for trip bookings.
 Travel To Slovakia will be useful for people who loves travelling and exploring not so popular countries such as this one. 
-![responsive image](Images/responsive-image.png)
 
+![responsive image](Images/responsive-image.png)
 
 ## Features
 ------
