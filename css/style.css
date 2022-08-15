@@ -155,11 +155,11 @@ footer {
     width:100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid black;
+    border: 3px double black;
     border-radius: 2px;
 }
 #comment {
-    border: 1px solid black;
+    border: 3px double black;
     width: 100%;
     margin: 5px 0 20px 0;
     
@@ -206,7 +206,7 @@ footer {
  }
 
 /*For large screen devices 1200px and above*/
-@media screen and (min-width : 1200px) { 
+@media screen and (min-width : 1000px) { 
     #logo {
         margin-left: 20px;
         display: inline;
@@ -218,7 +218,7 @@ footer {
     }
    
     .image-banner {
-        height: 700px;
+        height: 600px;
         object-fit: cover;
         
         
