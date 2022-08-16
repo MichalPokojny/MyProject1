@@ -101,11 +101,12 @@ No unfixed bugs
 
 ## Credits
 ------
-- Animations on main page and gallery was taken from w3schools.com
+- Animations on main page and gallery was taken from [w3schools](w3schools.com)
 
 **Content**
-- The text on a main page about country was taken from wikipedia
+- The text on a main page about Slovakia was taken from [wikipedia](wikipedia.org)
 - The code to link the social media and main logo and nav bar inspiration was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project at [Code Institute](https://codeinstitute.net/ie/)
+- Social links logo taken from [Font Awesome](https://fontawesome.com/)
 
 **Media**
 
