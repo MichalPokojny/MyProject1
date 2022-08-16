@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Manrope:wght@300&display=swap');
-
+/*General styling*/
 * {
     margin: 0;
     padding: 0;
@@ -9,12 +9,14 @@
 body {
     font-family: 'Manrope', sans-serif;
     color:black;
-    
+    background-color: rgb(255, 255, 255);
 }
+
 a {
     text-decoration-line: none;
     color: inherit;
 }
+
 /*Main image banner*/
 
 .image-banner {
@@ -29,10 +31,9 @@ a {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
 /*nav bar*/
-body {
-    background-color: rgb(255, 255, 255);
-}
+
 #menu {
     font-size: 120%;
     list-style-type: none;
@@ -42,17 +43,19 @@ body {
     margin: 0 auto 10px;
     
     text-align: center;
-    border-bottom: 2px ridge  rgba(139, 0, 0, 0.3);
-    
+    border-bottom: 2px ridge  rgba(139, 0, 0, 0.3);  
 }
+
 #menu li {
     display: inline;
 }
+
 .active {
     border-bottom: 2px solid rgba(255, 255, 255);
- 
  }
+
 /*Logo + headings*/
+
 h1, h2 {
     text-transform: uppercase;
     font-family: 'Jost', sans-serif;
@@ -60,51 +63,52 @@ h1, h2 {
     color: #000000;
     text-align: center;
 }
+
 h2 {
     color: rgb(139, 0, 0);
     margin-top: 25px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
 }
+
 #logo {
-    
     font-size: 200%;
     width: 350px;
     margin: 0 auto;
 }
-/*Text structure*/
 
+/*Text structure*/
 
 .wrapper p {
     margin: 0 10%;
     max-width: 80%;
-    line-height: 25px;
-    
+    line-height: 25px;   
 }
+
 #text p {
     text-align: center;
 }
+
 /*Footer - Social links*/
+
 footer {
     clear: both;
 }
+
 .social {
     
     text-align: center;
-    
- 
 }
-.social > li {
-    
+
+.social > li { 
     display: inline;
 }
+
 .social i {
-    
     font-size: 180%;
     margin: 1%;
-    padding: 5%;
-    
+    padding: 5%; 
 }
+
 /*gallery*/
 
 #gallery {
@@ -115,27 +119,23 @@ footer {
 
 #gallery  h2 {
     font-size: 150%;    
-    margin-bottom: 40px;
-    
-    
+    margin-bottom: 40px;   
 }
+
 .picture {
-    
     max-width: 100%;
     transition: transform 1s;
 }
+
 .picture:hover {
     transform: scale(1.05);
 }
+
 /*form*/
 
 .form-main {
     margin: 25px auto;
-    
-    
-    width: 80%;
-    
-    
+    width: 80%;   
 }
 
 .contact-details {
@@ -158,12 +158,13 @@ footer {
     border: 3px double black;
     border-radius: 2px;
 }
+
 #comment {
     border: 3px double black;
     width: 100%;
     margin: 5px 0 20px 0;
-    
 }
+
 .submit {
     background-color: rgba(0, 0, 0, 0.1);
     font-size: 110%;
@@ -173,12 +174,15 @@ footer {
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
 }
+
 .submit:hover{
     font-size: 120%;
 }
 
 /*media queries*/
+
 /*For medium screen devices 820px and above*/
+
 @media screen and (min-width : 750px) {
     /*contact*/
   
@@ -202,10 +206,10 @@ footer {
        width: 65%;
        text-align: justify;
     }
-  
  }
 
 /*For large screen devices 1200px and above*/
+
 @media screen and (min-width : 1000px) { 
     #logo {
         margin-left: 20px;
@@ -219,67 +223,63 @@ footer {
    
     .image-banner {
         height: 600px;
-        object-fit: cover;
-        
-        
+        object-fit: cover;   
     }
+
     /*mainpage*/
+
     #text p {
        text-align: left;
-       padding: 0 20px;
-       
+       padding: 0 20px; 
     }
-    #left-about {
-        
+
+    #left-about {  
         width: 25%;
         float: left;
-        
-        
     }
    
     #center-about {
-        
         width: 25%;
         margin-left: 13%;
-       
         display: inline-block;
-    
     }
+
     #center-about p {
         text-align:center;
     }
+
     #center-about h2, #right-about h2  {
         margin-top: 0px;
-        padding-top: 25px;
-        
+        padding-top: 25px; 
     }
    
     #right-about {
-        
         width: 25%;
-        
         float: right;
-  
     }
+
     #right-about p {
         text-align: right;
         margin-right: 0;
-        padding-right: 0;
-        
+        padding-right: 0; 
     }
+
     #right-about h2 {
         padding-left: 30%;
-        
     }
+
     /*gallery*/
+
    #city {
     float: left;
     width: 33.33%;
    }
+
    #nature {
     width: 33.33%;
     display: inline-block;
    }
+   
    #history {
     width: 33.33%;
     float: right;
@@ -290,9 +290,6 @@ footer {
   .form-main {
     margin: 5% auto 5%;
     width: 25%;
-    
-    
-  }
-  
+  } 
 }
 

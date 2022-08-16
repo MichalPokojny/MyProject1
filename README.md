@@ -7,15 +7,10 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 ![responsive image](Images/responsive-image.png)
 
-## Planning
+## User stories
 
-------
-
-- Before I started to write the code I first made a plan and visual using Balsamiq wireframe
-
-![wireframe of desktop](Images/wireframe-desktop.png)
-![wireframe of tablet](Images/wireframe-tablet.png)
-![wireframe of phone](Images/wireframe-phone.png)
+- As a visiting user I want like to see the pictures of how the destination looks like so I can decide if I want to visit
+- As a visiting user I would like to contact the owner of the website and book a trip
 
 
 ## Features
@@ -37,6 +32,7 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 **The gallery section**
 - The gallery section shows 3 different sections of photos where user can interact them with hover effect or click on the mobile devices.
+- Each of a picture in the gallery section has a hover effect with small zoom in effect.
 
 **The contact section**
 - The contact section include simple register form for upcoming trips that collect details of potential customers and other requests.
@@ -45,6 +41,28 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 **Social links**
 
 - There are social links included for every page where users can find the travel agency on a Facebook, Instagram and Youtube.
+
+## Future features
+
+- Upgrade this website with more functions such as calendar to book trips easier
+
+- Upgrade nav bar, make it fixed on a screen even the user scroll down the page
+
+## Typography nad color scheme
+
+- For main fonts I used google fonts and implemented for Headings and text
+- I used font named Jost for headings and font called Manrope for basic text and form
+- I chosen basic color layout for website which is white background, black text and for headings dark red color
+
+## Wireframes
+
+------
+
+- Before I started to write the code I first made a plan and visual using Balsamiq wireframe
+
+![wireframe of desktop](Images/wireframe-desktop.png)
+![wireframe of tablet](Images/wireframe-tablet.png)
+![wireframe of phone](Images/wireframe-phone.png)
 
 ## Testing
 
@@ -71,6 +89,8 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 - Accessibility
 -- I confirmed that the images, colors and fonts chosen are easy to read and accessible by running it trhough lighthouse in devtools.
 
+![lighthouse](Images/Lighthouse.png)
+
 **Unfixed bugs**
 
 No unfixed bugs
@@ -81,7 +101,15 @@ No unfixed bugs
 
 ## Credits
 ------
+- Animations on main page and gallery was taken from w3schools.com
+
 **Content**
+- The text on a main page about country was taken from wikipedia
+- The code to link the social media and main logo and nav bar inspiration was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project at [Code Institute](https://codeinstitute.net/ie/)
 
 **Media**
+
+- All the images was taken from [pxhere](https://pxhere.com/)
+
+
 
