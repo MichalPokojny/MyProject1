@@ -61,9 +61,13 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 
 
-**Social links**
+**Footer**
 
-- There are social links included for every page where users can find the travel agency on a Facebook, Instagram and Youtube.
+- There are social links included located on every page at the bottom. User can find the travel agency on a Facebook, Instagram   and Youtube. These links are open in a new tab to keep user also on the website.
+  
+<p align="center">
+  <img src="docs/social.png">
+</p>
 
 ## Future features
 
@@ -132,7 +136,7 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 **Solved bugs**
 
-- When I first imported all the photos I used the highest resolution possible and page was loading too slow so I replaced them with appropriate resolution for desktop and mobile devices and it started to load faster.
+- When I first imported all the photos I used the highest resolution possible and also made a long path to the source so page was loading too slow. I replaced them with appropriate resolution for desktop and mobile devices and it started to load faster.
 
 **Validator testing**
 
@@ -151,6 +155,14 @@ No unfixed bugs
 
 ## Deployment
 ------
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  The live link can be found here -
 
 
 ## Credits
