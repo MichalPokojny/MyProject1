@@ -17,7 +17,7 @@ a {
     color: inherit;
 }
 
-/*Main image banner*/
+/*Main image banner fade in effect*/
 
 .image-banner {
     
@@ -119,7 +119,7 @@ footer {
     font-size: 150%;    
     margin-bottom: 40px;   
 }
-
+/*Gallery images hover effect*/
 .picture {
     max-width: 100%;
     transition: transform 1s;
@@ -178,9 +178,14 @@ footer {
 }
 
 .thank-you {
-    max-width: 25%;
-    margin:50% auto;
-
+    max-width: 55%;
+    margin:25% auto;
+    padding: 5%;
+    border: 4px double #600101;
+    text-align: center;
+    color: #610000;
+    font-family: 'Jost', sans-serif;
+    font-size: 150%;
 }
 
 /*media queries*/
