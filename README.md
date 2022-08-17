@@ -25,12 +25,13 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 - On the top of the every page, there is a logo on the left side that can navigate to the main page and 
   on the right side there are 3 links which can navigate to different pages such as Home - main page, Gallery - where use can find photos about Slovakia and Contact link where user can find contact and register for a trip to Slovakia.
 
-- The navigation bar clearly tells on which page user currently is as I removed text underline on a page that is clicked on.
+- The navigation bar clearly tells on which page user currently is as the text underline on a page that is clicked on is removed.
 
 ![Navigation bar](docs/navigation.png) 
 
 
 **The header**
+
 - Banner photo with fade in effect on a main page
 
 **The gallery section**
@@ -70,7 +71,7 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 - Upgrade nav bar, make it fixed on a screen even the user scroll down the page
 
-## Typography nad color scheme
+## Typography and color scheme
 ------
 ### Fonts
 - Fonts are taken from google fonts
