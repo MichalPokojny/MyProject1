@@ -5,7 +5,9 @@ Travel To Slovakia is a website about my home country Slovakia. Main purpose is 
 making potential visitors to contact the owner of the website for trip bookings.
 Travel To Slovakia will be useful for people who loves travelling and exploring not so popular countries such as this one. 
 
-![responsive image](docs/responsive-image.png)
+<p align="center">
+  <img src="docs/responsive-image.png">
+</p>
 
 ## User stories
 
@@ -40,11 +42,23 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 - The contact section include simple register form for upcoming trips that collect details of potential customers and other requests.
 - First Name, Last name, Email address and also Requests box are required to fill if user wants to succesfully sent form.
 
-- Submit button has a zoom in effect when hover on desktop and clicked on smaller devices
+- Submit button has a zoom in effect when hover on desktop and clicked on smaller devices.
 
 - There is also contact details included on a page that give customers an option to get in touch.
 
-![Contact section](docs/contact.png) 
+
+<p align="center">
+  <img src="docs/contact.png">
+</p>
+
+<br>
+- Once the form is sent user will get new page open in different tab saying thank you for submit
+<br>
+<br>
+
+![Thank you page](docs/submit-page.png) 
+
+
 
 **Social links**
 
@@ -84,8 +98,17 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 - For visualisation of website I used Balsamiq wireframe
 
 ![wireframe of desktop](docs/wireframe-desktop.png)
-![wireframe of tablet](docs/wireframe-tablet.png)
-![wireframe of phone](docs/wireframe-phone.png)
+<br>
+<p align="center">
+  <img src="docs/wireframe-tablet.png">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/wireframe-phone.png">
+</p>
+
 
 ## Technologies used
 
@@ -134,6 +157,7 @@ No unfixed bugs
 - Animations on main page and gallery was taken from [w3schools](w3schools.com)
 
 **Content**
+- Colors image taken from [Coolors](https://coolors.co/)
 - The text on a main page about Slovakia was taken from [wikipedia](wikipedia.org)
 - The code to link the social media and main logo and nav bar inspiration was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project at [Code Institute](https://codeinstitute.net/ie/)
 - Social links logo taken from [Font Awesome](https://fontawesome.com/)

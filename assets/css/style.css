@@ -42,10 +42,12 @@ a {
     
     text-align: center;
     border-bottom: 2px ridge #6100009c;  
+    word-spacing: 10px;
 }
 
 .menu li {
     display: inline;
+   
 }
 
 .active {
