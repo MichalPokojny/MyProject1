@@ -1,14 +1,15 @@
 
 # Travel To Slovakia
 
-This website Travel To Slovakia is about my home country Slovakia. Main purpose is saying and showing something about this country and 
-making potential users to contact the owner of the website for trip bookings.
+Travel To Slovakia is a website about my home country Slovakia. Main purpose is saying and showing something about this country and 
+making potential visitors to contact the owner of the website for trip bookings.
 Travel To Slovakia will be useful for people who loves travelling and exploring not so popular countries such as this one. 
 
-![responsive image](Images/responsive-image.png)
+![responsive image](docs/responsive-image.png)
 
 ## User stories
 
+- As a visiting user I am interested to travel to center europe and find out something about the desired destination
 - As a visiting user I want like to see the pictures of how the destination looks like so I can decide if I want to visit
 - As a visiting user I would like to contact the owner of the website and book a trip
 
@@ -24,19 +25,26 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 - The navigation bar clearly tells on which page user currently is as I removed text underline on a page that is clicked on.
 
-![navigation bar](Images/navigation.png) 
+![Navigation bar](docs/navigation.png) 
 
 
 **The header**
 - Banner photo with fade in effect on a main page
 
 **The gallery section**
-- The gallery section shows 3 different sections of photos where user can interact them with hover effect or click on the mobile devices.
-- Each of a picture in the gallery section has a hover effect with small zoom in effect.
+- The gallery section shows 3 different sections of images where user can interact them with zoom in effect when hover on a desktop or click on the smaller devices.
+
+![Gallery section](docs/gallery.png) 
 
 **The contact section**
 - The contact section include simple register form for upcoming trips that collect details of potential customers and other requests.
+- First Name, Last name, Email address and also Requests box are required to fill if user wants to succesfully sent form.
+
+- Submit button has a zoom in effect when hover on desktop and clicked on smaller devices
+
 - There is also contact details included on a page that give customers an option to get in touch.
+
+![Contact section](docs/contact.png) 
 
 **Social links**
 
@@ -49,20 +57,42 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 - Upgrade nav bar, make it fixed on a screen even the user scroll down the page
 
 ## Typography nad color scheme
+------
+### Fonts
+- Fonts are taken from google fonts
 
-- For main fonts I used google fonts and implemented for Headings and text
-- I used font named Jost for headings and font called Manrope for basic text and form
+- Font named Jost is used for headings and Logo
+
+![Jost font](docs/jost.png)
+
+- Font named Manrope is used for main text and form
+
+![Manrope font](docs/manrope.png)
+
 - I chosen basic color layout for website which is white background, black text and for headings dark red color
+
+### Color
+
+- Color palet used for website
+
+![Web color](docs/colors.png)
 
 ## Wireframes
 
 ------
 
-- Before I started to write the code I first made a plan and visual using Balsamiq wireframe
+- For visualisation of website I used Balsamiq wireframe
 
-![wireframe of desktop](Images/wireframe-desktop.png)
-![wireframe of tablet](Images/wireframe-tablet.png)
-![wireframe of phone](Images/wireframe-phone.png)
+![wireframe of desktop](docs/wireframe-desktop.png)
+![wireframe of tablet](docs/wireframe-tablet.png)
+![wireframe of phone](docs/wireframe-phone.png)
+
+## Technologies used
+
+------
+
+- HTML5
+- CSS3
 
 ## Testing
 
@@ -89,7 +119,7 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 - Accessibility
 -- I confirmed that the images, colors and fonts chosen are easy to read and accessible by running it trhough lighthouse in devtools.
 
-![lighthouse](Images/Lighthouse.png)
+![lighthouse](docs/Lighthouse.png)
 
 **Unfixed bugs**
 
