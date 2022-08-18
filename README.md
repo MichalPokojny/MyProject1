@@ -1,7 +1,9 @@
 # [Travel To Slovakia](https://michalpokojny.github.io/MyProject1/)
 
-Travel To Slovakia is a website about my home country Slovakia. The main purpose is to say and show something about this country and make potential visitors contact the owner of the website for trip bookings. Travel To Slovakia will be useful for people who love traveling and exploring not-so-popular countries such as this one.
-Travel To Slovakia will be useful for people who loves travelling and exploring not so popular countries such as this one. 
+Travel To Slovakia is a website about my home. The purpose of the
+website is to show visitors more about Slovakia and gives potential
+tourists a way to book a trip. Travel To Slovakia is for people who
+love traveling and exploring hidden gems such as this one.
 
 <p align="center">
   <img src="docs/responsive-image.png">
@@ -9,9 +11,9 @@ Travel To Slovakia will be useful for people who loves travelling and exploring 
 
 ## User stories
 
-- As a visiting user, I am interested to travel to the center of Europe and finding out something about the desired destination
-- As a visiting user, I want like to see the pictures of how the destination looks like so I can decide if I want to visit
-- As a visiting user, I would like to contact the owner of the website and book a trip
+- As a visiting user, I am interested to travel to the centre of Europe to discover Slovakia.
+- As a visiting user, I would like to see pictures of the country so I can decide if I want to visit.
+- As a visiting user, I would like to contact the company to book a trip.
 
 ## Features
 
@@ -94,8 +96,6 @@ There are also contact details included on a page that gives customers an option
 
 ------
 
-- For the visualization of the website I used a Balsamiq wireframe.
-
 ![wireframe of desktop](docs/wireframe-desktop.png)
 <br>
 <p align="center">
@@ -112,9 +112,12 @@ There are also contact details included on a page that gives customers an option
 ## Technologies used
 
 ------
-
-- HTML5
-- CSS3
+- Balsamiq - Wireframe planning of the project
+- HTML5 - Main structure of the website
+- CSS3 - Styling of the website
+- GitPod - Workspace of the website
+- GitHub - Deployment of the website
+- Grammarly - Grammar check of all the text in the website and readme file
 
 ## Testing
 
