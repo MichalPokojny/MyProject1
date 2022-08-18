@@ -214,6 +214,6 @@ No unfixed bugs
 ## Acknowledgements
 ------
 
-- First I would like to thank my girlfriend Jane for continuos support and helping me with grammar check.
-- I would like to also thank to my mentor [Rohit Sharma](https://github.com/rohit0286) for the support deploying mi first project.
+- First I would like to thank my girlfriend Jane for her continuous support and for helping me with grammar checks and correct wording.
+- I would like to also thank my mentor Rohit Sharma for the support in deploying my first project.
 
