@@ -16,7 +16,7 @@ love traveling and exploring hidden gems such as this one.
 - As a visiting user, I would like to contact the company to book a trip.
 
 ## Features
-------
+
 
 **Navigation**
 
@@ -93,7 +93,7 @@ calendar component that displays days and dates of the current month.
 corner of the screen even if the user scrolls down the page.
 
 ## Typography and color scheme
-------
+
 
 **Fonts**
 
@@ -114,7 +114,7 @@ corner of the screen even if the user scrolls down the page.
 ![Web color](docs/colors.png)
 
 ## Wireframes
-------
+
 
 ![wireframe of desktop](docs/wireframe-desktop.png)
 <br>
@@ -130,7 +130,7 @@ corner of the screen even if the user scrolls down the page.
 
 
 ## Technologies used
-------
+
 - Balsamiq - Wireframe planning.
 - HTML5 - Main structure of the website.
 - CSS3 - Styling of the website.
@@ -141,7 +141,7 @@ corner of the screen even if the user scrolls down the page.
 - Google Chrome Lighthouse - Testing the performance of each page.
 
 ## Testing
-------
+
 
 - I tested this webpage on Google Chrome, Mozilla Firefox, and on Safari.
 - I confirmed that this project is fully responsive, and works on every screen device using the dev tools device toolbar.
@@ -179,7 +179,6 @@ devices which increased the loading speed.
 No unfixed bugs
 
 ## Deployment
-------
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 
@@ -198,7 +197,7 @@ No unfixed bugs
 
 
 ## Credits
-------
+
 
 **Content**
 - Animations on the main page and gallery were taken from  [w3schools](w3schools.com)
@@ -213,7 +212,7 @@ No unfixed bugs
 - All the images were taken from [pxhere](https://pxhere.com/)
 
 ## Acknowledgements
-------
+
 
 - First I would like to thank my partner Jane for her continuous support and for helping me with grammar checks and correct wording.
 - I would like to also thank my mentor [Rohit Sharma](https://github.com/rohit0286) for the support in deploying my first project.
