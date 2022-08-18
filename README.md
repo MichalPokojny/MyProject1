@@ -21,9 +21,16 @@ love traveling and exploring hidden gems such as this one.
 
 **Navigation**
 
-- On the top of every page, there is a logo on the left side that can navigate to the main page, and on the right side, there are 3 links which can navigate to different pages such as Home - main page, Gallery - where users can find photos about Slovakia and Contact link where user can find contact and register for a trip to Slovakia.
+- On the top left of every page, the name of the website acts as a way
+to navigate back to the main screen. There are three buttons on the
+right side which navigate to three different pages Home - main page,
+Gallery - where users can find photos of Slovakia and Contact -  where
+users can submit a form to the company to register for a trip to
+Slovakia.
 
-- The navigation bar tells on which page the user currently is as the text underlines on a page that is clicked on is removed.
+- The navigation bar on the three buttons informs the user of the page
+they are currently on. The underline disappears on select of the
+button.
 
 ![Navigation bar](docs/navigation.png) 
 
@@ -38,10 +45,15 @@ love traveling and exploring hidden gems such as this one.
 ![Gallery section](docs/gallery.png) 
 
 **The contact section**
-- The contact section includes a simple registration form for upcoming trips that collect details of potential customers and other requests.
-- First Name, Last name, Email address, and also Requests box are required to fill if the user wants to successfully send the form.
-- Submit button has a zoom-in effect when hovering over a desktop device and clicking on smaller devices.
-There are also contact details included on a page that gives customers an option to get in touch.
+- The contact section includes a simple registration form for upcoming
+trips that collect details of potential customers and other requests.
+- The following input fields First Name, Last name, Email address, and
+Requests are required to successfully send the form.
+- The submit button on the form has a zoom-in effect similar to the
+functionality of the gallery that displays the images of Slovakia.
+- To get this effect when hovering over a desktop device and clicking on
+smaller devices. There are further contact details displayed on the
+page giving customers more ways of getting in touch with the company.
 
 
 <p align="center">
@@ -50,7 +62,8 @@ There are also contact details included on a page that gives customers an option
 
 <br>
 
--  Once the form is sent user will get a new page open in a different tab saying thank you for submitting
+-  Once the user submits the form, the webpage navigates to a new screen
+that displays a textbox confirming the submission was successful.
 <br>
 <br>
 
@@ -60,7 +73,10 @@ There are also contact details included on a page that gives customers an option
 
 **Footer**
 
-- There are social links included located on every page at the bottom. Users can find the travel agency on Facebook, Instagram, and Youtube. These links are open in a new tab to keep users also on the website.
+- There are links to three social media platforms located at the bottom
+of every page. On select of these buttons, the users navigate to new
+tabs that display the company's profile accounts on Facebook,
+Instagram, or Youtube.
   
 <p align="center">
   <img src="docs/social.png">
@@ -68,13 +84,16 @@ There are also contact details included on a page that gives customers an option
 
 ## Future features
 
-- Upgrade this website with more functions such as a calendar to book trips easier.
+- Upgrade this website with increased functionality such as including a
+calendar component that displays days and dates of the current month.
 
-- Upgrade the nav bar, make it fixed on a screen even if the user scrolls down the page.
+- Upgrade the navigation bar, to have it fixed to the top right hand
+corner of the screen even if the user scrolls down the page.
 
 ## Typography and color scheme
 ------
-### Fonts
+**Fonts**
+
 - Fonts are taken from google fonts
 - A font named Jost is used for headings and Logo
 
@@ -84,9 +103,8 @@ There are also contact details included on a page that gives customers an option
 
 ![Manrope font](docs/manrope.png)
 
-- I have chosen a basic color layout for the website which is a white background, black text, and for headings dark red color.
 
-### Color
+**Color**
 
 - Color pallet used for website
 
@@ -112,26 +130,30 @@ There are also contact details included on a page that gives customers an option
 ## Technologies used
 
 ------
-- Balsamiq - Wireframe planning of the project
-- HTML5 - Main structure of the website
-- CSS3 - Styling of the website
-- GitPod - Workspace of the website
-- GitHub - Deployment of the website
-- Grammarly - Grammar check of all the text in the website and readme file
+- Balsamiq - Wireframe planning.
+- HTML5 - Main structure of the website.
+- CSS3 - Styling of the website.
+- GitPod - Workspace of the project.
+- GitHub - For hosting the website.
+- Grammarly - Grammar check of all the text in the website and readme file.
+- Google Chrome - Main testing of the website on all devices.
 
 ## Testing
 
 ------
 
-- I tested this webpage on Chrome, Mozilla Firefox, and Safari.
+- I tested this webpage on Chrome, Mozilla Firefox, and on Safari.
 - I confirmed that this project is fully responsive, and works on every screen device using the dev tools device toolbar.
-- I confirmed that the registration form works and require all field to be filled with correct data.
+- I confirmed that the registration form submits once all required fields have data inputted.
 
-**Bugs**
+### Bugs
 
 **Solved bugs**
 
-- When I first imported all the photos I used the highest resolution possible and also made a long path to the source so the page was loading too slow. I replaced them with an appropriate resolution for desktop and mobile devices and it started to load faster.
+- When I first imported all of the photos I used the highest resolution available. I also made a long path to the source and so the performance of the
+page was too slow.
+I replaced them with an appropriate resolution for desktop and mobile
+devices which increased the loading speed. 
 
 **Validator testing**
 
@@ -140,9 +162,16 @@ There are also contact details included on a page that gives customers an option
 - CSS
 -- No errors were found when passing through the official validator.
 - Accessibility
--- I confirmed that the images, colors and fonts chosen are easy to read and accessible by running it trhough lighthouse in devtools.
+-- I confirmed that the images, colors and fonts chosen are easy to read and accessible by running it through the Google Chrome lighthouse in devtools.
 
-![lighthouse](docs/Lighthouse.png)
+#### Desktop Home page 
+![home-lighthouse](docs/home-lighthouse.png)
+
+#### Desktop Gallery page
+![gallery-lighthouse](docs/gallery-lighthouse.png)
+
+#### Desktop Contact page
+![contact-lighthouse](docs/contact-lighthouse.png)
 
 **Unfixed bugs**
 
@@ -159,12 +188,20 @@ No unfixed bugs
 
   The live link can be found here - https://michalpokojny.github.io/MyProject1/
 
+  - The site can be also deployed on GitPod. The steps to deploy are as follows:
+   - In the gitpod workspace click on the index.html
+   - Once opened, in the commander type: python3 -m http.server
+   - When the message is shown click on make public and click on the link
+
+   
+
 
 ## Credits
 ------
-- Animations on the main page and gallery were taken from  [w3schools](w3schools.com)
+
 
 **Content**
+- Animations on the main page and gallery were taken from  [w3schools](w3schools.com)
 - Colors image taken from [Coolors](https://coolors.co/)
 - The text on the main page about Slovakia was taken from [wikipedia](wikipedia.org)
 - The code to link the social media and main logo and nav bar inspiration was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project at [Code Institute](https://codeinstitute.net/ie/)
@@ -173,3 +210,10 @@ No unfixed bugs
 **Media**
 
 - All the images were taken from [pxhere](https://pxhere.com/)
+
+## Acknowledgements
+------
+
+- First I would like to thank my girlfriend Jane for continuos support and helping me with grammar check.
+- I would like to also thank to my mentor [Rohit Sharma](https://github.com/rohit0286) for the support deploying mi first project.
+
