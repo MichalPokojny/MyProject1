@@ -135,7 +135,7 @@ corner of the screen even if the user scrolls down the page.
 - HTML5 - Main structure of the website.
 - CSS3 - Styling of the website.
 - GitPod - Workspace of the project.
-- GitHub - For hosting the website.
+- GitHub - Hosting the website.
 - Grammarly - Grammar check of all the text in the website and readme file.
 - Google Chrome - Main testing of the website on all devices.
 - Google Chrome Lighthouse - Testing the performance of each page.
