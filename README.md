@@ -142,7 +142,7 @@ corner of the screen even if the user scrolls down the page.
 
 ------
 
-- I tested this webpage on Chrome, Mozilla Firefox, and on Safari.
+- I tested this webpage on Google Chrome, Mozilla Firefox, and on Safari.
 - I confirmed that this project is fully responsive, and works on every screen device using the dev tools device toolbar.
 - I confirmed that the registration form submits once all required fields have data inputted.
 
@@ -189,9 +189,9 @@ No unfixed bugs
   The live link can be found here - https://michalpokojny.github.io/MyProject1/
 
   - The site can be also deployed on GitPod. The steps to deploy are as follows:
-   - In the gitpod workspace click on the index.html
-   - Once opened, in the commander type: python3 -m http.server
-   - When the message is shown click on make public and click on the link
+   - In the gitpod workspace go to MyProject1 click on the index.html
+   - Once opened, in the terminal type: python3 -m http.server
+   - Local link will appear in the terminal, click on it and the webpage will open in a new tab
 
    
 
@@ -204,8 +204,9 @@ No unfixed bugs
 - Animations on the main page and gallery were taken from  [w3schools](w3schools.com)
 - Colors image taken from [Coolors](https://coolors.co/)
 - The text on the main page about Slovakia was taken from [wikipedia](wikipedia.org)
-- The code to link the social media and main logo and nav bar inspiration was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project at [Code Institute](https://codeinstitute.net/ie/)
+- The code to link the social media and main logo and navigation bar inspiration was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project at [Code Institute](https://codeinstitute.net/ie/)
 - Social links logo taken from [Font Awesome](https://fontawesome.com/)
+- Writing of readme file I got inspired from CodeIntitute readme sample project.
 
 **Media**
 
@@ -215,5 +216,4 @@ No unfixed bugs
 ------
 
 - First I would like to thank my girlfriend Jane for her continuous support and for helping me with grammar checks and correct wording.
-- I would like to also thank my mentor Rohit Sharma for the support in deploying my first project.
-
+- I would like to also thank my mentor [Rohit Sharma](https://github.com/rohit0286) for the support in deploying my first project.
