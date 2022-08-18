@@ -16,7 +16,6 @@ love traveling and exploring hidden gems such as this one.
 - As a visiting user, I would like to contact the company to book a trip.
 
 ## Features
-
 ------
 
 **Navigation**
@@ -40,7 +39,10 @@ button.
 - Banner photo with fade-in effect on the main page.
 
 **The gallery section**
-- The gallery section shows 3 different sections of images where the user can interact with them with a zoom-in effect when hovering on a desktop or clicking on the smaller devices.
+- The gallery section shows 3 different sections of images where the
+user can interact with them by zooming in and out. If using a desktop
+the user can hover over the images and if using smaller devices
+tapping on the images gives the same effect.
 
 ![Gallery section](docs/gallery.png) 
 
@@ -92,9 +94,10 @@ corner of the screen even if the user scrolls down the page.
 
 ## Typography and color scheme
 ------
+
 **Fonts**
 
-- Fonts are taken from google fonts
+- Fonts are taken from Google Fonts
 - A font named Jost is used for headings and Logo
 
 ![Jost font](docs/jost.png)
@@ -104,14 +107,13 @@ corner of the screen even if the user scrolls down the page.
 ![Manrope font](docs/manrope.png)
 
 
-**Color**
+**Colour**
 
-- Color pallet used for website
+- Colour pallet used for website.
 
 ![Web color](docs/colors.png)
 
 ## Wireframes
-
 ------
 
 ![wireframe of desktop](docs/wireframe-desktop.png)
@@ -128,7 +130,6 @@ corner of the screen even if the user scrolls down the page.
 
 
 ## Technologies used
-
 ------
 - Balsamiq - Wireframe planning.
 - HTML5 - Main structure of the website.
@@ -137,9 +138,9 @@ corner of the screen even if the user scrolls down the page.
 - GitHub - For hosting the website.
 - Grammarly - Grammar check of all the text in the website and readme file.
 - Google Chrome - Main testing of the website on all devices.
+- Google Chrome Lighthouse - Testing the performance of each page.
 
 ## Testing
-
 ------
 
 - I tested this webpage on Google Chrome, Mozilla Firefox, and on Safari.
@@ -152,7 +153,7 @@ corner of the screen even if the user scrolls down the page.
 
 - When I first imported all of the photos I used the highest resolution available. I also made a long path to the source and so the performance of the
 page was too slow.
-I replaced them with an appropriate resolution for desktop and mobile
+I replaced them with an appropriate resolution for both desktop and mobile
 devices which increased the loading speed. 
 
 **Validator testing**
@@ -162,7 +163,7 @@ devices which increased the loading speed.
 - CSS
 -- No errors were found when passing through the official validator.
 - Accessibility
--- I confirmed that the images, colors and fonts chosen are easy to read and accessible by running it through the Google Chrome lighthouse in devtools.
+-- I confirmed that the images, colours and fonts chosen are easy to read and accessible by running it through the Google Chrome lighthouse in devtools.
 
 #### Desktop Home page 
 ![home-lighthouse](docs/home-lighthouse.png)
@@ -184,7 +185,7 @@ No unfixed bugs
 
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - Once the Master Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
   The live link can be found here - https://michalpokojny.github.io/MyProject1/
 
@@ -199,14 +200,13 @@ No unfixed bugs
 ## Credits
 ------
 
-
 **Content**
 - Animations on the main page and gallery were taken from  [w3schools](w3schools.com)
-- Colors image taken from [Coolors](https://coolors.co/)
+- Colours image taken from [Coolors](https://coolors.co/)
 - The text on the main page about Slovakia was taken from [wikipedia](wikipedia.org)
 - The code to link the social media and main logo and navigation bar inspiration was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project at [Code Institute](https://codeinstitute.net/ie/)
 - Social links logo taken from [Font Awesome](https://fontawesome.com/)
-- Writing of readme file I got inspired from CodeIntitute readme sample project.
+- Writing of readme file I got inspired at the CodeIntitute readme sample project.
 
 **Media**
 
@@ -215,5 +215,5 @@ No unfixed bugs
 ## Acknowledgements
 ------
 
-- First I would like to thank my girlfriend Jane for her continuous support and for helping me with grammar checks and correct wording.
+- First I would like to thank my partner Jane for her continuous support and for helping me with grammar checks and correct wording.
 - I would like to also thank my mentor [Rohit Sharma](https://github.com/rohit0286) for the support in deploying my first project.
