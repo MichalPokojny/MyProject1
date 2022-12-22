@@ -1,4 +1,4 @@
-# [Travel To Slovakia](https://michalpokojny.github.io/MyProject1/)
+# [Travel To Slovakia](https://michalpokojny.github.io/MyProject1-TravelToSlovakia/)
 
 Travel To Slovakia is a website about my home. The purpose of the
 website is to show visitors more about Slovakia and gives potential
@@ -186,7 +186,7 @@ No unfixed bugs
   - From the source section drop-down menu, select the Master Branch
   - Once the Master Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  The live link can be found here - https://michalpokojny.github.io/MyProject1/
+  The live link can be found here - https://michalpokojny.github.io/MyProject1-TravelToSlovakia/
 
   - The site can be also deployed on GitPod. The steps to deploy are as follows:
    - In the gitpod workspace go to MyProject1 click on the index.html
